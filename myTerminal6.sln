@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myTerminal6", "myTerminal6\myTerminal6.csproj", "{B5A46160-A0EF-4F9D-89E5-0B86E456644A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49523120-C2E7-4B79-A2D0-FC9F4D031A54} = {49523120-C2E7-4B79-A2D0-FC9F4D031A54}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UART Bootlader arayüzü", "UART Bootlader arayüzü\UART Bootlader arayüzü.vdproj", "{909ED0E2-83B4-4211-BBC4-E19B3BE5BEED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmodemProtocol", "XmodemProtocol-master\XmodemProtocol.csproj", "{49523120-C2E7-4B79-A2D0-FC9F4D031A54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5A46160-A0EF-4F9D-89E5-0B86E456644A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A46160-A0EF-4F9D-89E5-0B86E456644A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A46160-A0EF-4F9D-89E5-0B86E456644A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A46160-A0EF-4F9D-89E5-0B86E456644A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909ED0E2-83B4-4211-BBC4-E19B3BE5BEED}.Debug|Any CPU.ActiveCfg = Debug
+		{909ED0E2-83B4-4211-BBC4-E19B3BE5BEED}.Release|Any CPU.ActiveCfg = Release
+		{49523120-C2E7-4B79-A2D0-FC9F4D031A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49523120-C2E7-4B79-A2D0-FC9F4D031A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49523120-C2E7-4B79-A2D0-FC9F4D031A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49523120-C2E7-4B79-A2D0-FC9F4D031A54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FDDF4AC-1CD3-4FC3-AFFD-E9F8955BDE06}
+	EndGlobalSection
+EndGlobal
